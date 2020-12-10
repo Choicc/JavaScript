@@ -5,8 +5,8 @@ name: 企鹅读书宝箱+翻倍
 
 on:
   workflow_dispatch:
-  schedule:
-     - cron: '*/2 * * * *'
+#   schedule:
+#      - cron: '*/2 * * * *'
   watch:
     types: started
 
